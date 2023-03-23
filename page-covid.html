@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>My Portfolio</title>
+		<title>cfong32's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,7 +20,7 @@
 			</nav>
 
 		<!-- About Me -->
-			<article id="about-me" class="wrapper style1">
+			<article id="intro" class="wrapper style1">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -37,32 +37,34 @@
 		<!-- Idea -->
 			<article id="idea" class="wrapper style3">
 				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<header>
-								<h2>
-									<b>Key idea</b>
-									<a href="#" class="far fa-lightbulb"></a>
-								</h2>
-							</header>
+					<header>
+						<h2>
+							<b>Key ideas</b> <a href="#" class="far fa-lightbulb"></a>
+						</h2>
+					</header>
+					<div class="row aln-center">
+						<div class="col-6 col-6-medium col-12-small">
+							<section class="box style1">
+								<h3><b>Transformer model</b></h3>
+								<p>The <b>self-attention mechanism</b> of the transformer allow multiple time series to interact with each other.</p>
+								<img class="image featured" src="images/modelc.png" alt="" />
+							</section>
 						</div>
-					</div>
-						<div class="col-12">
-							<p>Using a <b> transformer model</b>, an <b> ensemble method</b>, and a <b>data augmentation</b>
-								technique,we forecasted the state-level COVID-19 trends of weekly
-								cumulative death in the United States (US) and incident cases in Germany.
-							</p>
-							<p>
-							    <b>Our model has achieved some of the best state-level results on the
-								COVID-19 Forecast Hub for the US and for Germany</b>
-							</p>
+						<div class="col-6 col-6-medium col-12-small">
+							<section class="box style1">
+								<h3><b>Ensemble method</b></h3>
+								<p>By combine models which are randomly initialized into an ensemble, the overall forecast become <b>more robust</b>.</p>
+								<img class="image featured" src="images/ensemble.png" alt="" />
+							</section>
 						</div>
-						<hr>
-						<div class="col-6">
-							<h3>Model Architecture</h3>
-							<a href="page-covid.html" class="image featured"><img src="images/modelc.png" alt="" /></a>
+						<div class="col-6 col-6-medium col-12-small">
+							<section class="box style1">
+								<h3><b>Data augmentation</b></h3>
+								<p>Employing an SIR-based data model, we generate <b>more data for training and validation</b>.
+									The generated data was shown to be distributionally closer to the test data.</p>
+								<img class="image featured" src="images/tsne.210717.png" alt="" />
+							</section>
 						</div>
-
 					</div>
 				</div>
 			</article>
@@ -71,7 +73,9 @@
 		<article id="github" class="wrapper style1">
 			<div class="container">
 				<header>
-					<h2><b>GitHub</b></h2>
+					<h2>
+						<b>GitHub</b> <a href="#" class="icon brands fa-github"></a>
+					</h2>
 				</header>
 				<div class="row">
 					<div class="col-6 col-6-medium col-12-small">
@@ -112,7 +116,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-							<h2><b>Details are in our Paper</b></h2>
+							<h2><b>Details</b> are in our paper</h2>
 							<p>
 								<a href="https://arxiv.org/abs/2302.01155"><br>
 									<b>Fong, Chung Yan, and Dit-Yan Yeung<br>
